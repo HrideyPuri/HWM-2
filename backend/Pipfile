@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+pillow = "*"
+matplotlib = "*"
+tensorflow = "*"
+opencv-python = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+deepface = "==0.0.80"
+keras = "==2.15.0"
+django-auditlog = "*"
+sentence-transformers = "*"
+django-jet-reboot = "*"
+google-generativeai = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
